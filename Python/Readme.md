@@ -19,7 +19,7 @@ Este código permite enviar comandos de manera manual al instrumento.
 
 ---
 
-### **2. Graficar**  
+### **2. BKPrecision_IVMeas**  
 Ejemplo de uso para **inyectar corriente en un diodo y medir su voltaje**, generando su **curva característica**.  
 
 #### **Instrucciones:**  
