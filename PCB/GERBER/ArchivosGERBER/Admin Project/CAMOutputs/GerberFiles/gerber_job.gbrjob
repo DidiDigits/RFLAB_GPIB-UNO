@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2025-03-19T18:28:42Z",
+        "GenerationSoftware": {
+            "Application": "Fusion Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "PCBIEEE488250225 v3"
+        },
+        "Owner": "ivan castro16 <ivan.castro16@uabc.edu.mx>",
+        "Size": {
+            "X": 88.3,
+            "Y": 59.81
+        }
+    }
+}
