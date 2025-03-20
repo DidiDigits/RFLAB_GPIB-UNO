@@ -1,6 +1,6 @@
 # **Montaje de la PCB en el Arduino**
 
-Este directorio contiene imágenes del montaje final de la PCB controladora GPIB sobre un Arduino.
+Este directorio contiene imágenes del montaje final de la PCB "controlador GPIB" sobre el Arduino.
 
 ### **Descripción de las imágenes**
 - **Imagen_1.jpg** → Vista superior de la PCB con el cable plano conectado al conector Centronics.
