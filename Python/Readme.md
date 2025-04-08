@@ -1,8 +1,23 @@
 # **Instrucciones para Python**  
 
-Dentro de esta carpeta encontrarás **dos archivos .py**, cada uno con una función diferente:  
+Dentro de esta carpeta encontrarás **varios archivos .py**, cada uno con una función diferente:  
 
-### **1. GPIB**  
+### **1. cambioGPIB.py**  
+Este código permite cambiar la dirección GPIB en el controlador AR488 con la finalidad de que tenga la misma que la del instrumento y poder comunicarnos, el script requiere de la función **send_commands.py** para poder funcionar correctamente.  
+
+#### **send_commands.py**  
+Esta **función** se encarga de enviar y recibir comandos del instrumento por medio de instrucciones dadas por el usuario, además de comprobar una correcta comunicación mostrando la identificación del instrumento conectado.
+ 
+**IMPORTANTE**: Es necesario instalar las librerias **serial** y **pyserial**
+
+---
+
+### **2. claseGPIB_Arduino.py**  
+Este código es la base principal para la comunicación con los instrumentos utilizados como **Rohde&Schwarz FSP40** y **BKPRECISION 9115** y el correcto funcionamiento de los codigos encontrados en este repositorio. ademas de ser clave para la creacion de futuros scripts que requieran esta clase.
+
+---
+
+### **3. GPIB_USB_Arduino.py**  
 Este código permite enviar comandos de manera manual al instrumento.  
 
 #### **Instrucciones:**  
@@ -19,7 +34,7 @@ Este código permite enviar comandos de manera manual al instrumento.
 
 ---
 
-### **2. BKPrecision_IVMeas**  
+### **4. BKPrecision_IVMeas**  
 Ejemplo de uso para **inyectar corriente en un diodo y medir su voltaje**, generando su **curva característica**.  
 
 #### **Instrucciones:**  
