@@ -9,4 +9,4 @@ AR488 adaptation for use in the RF and Microwave lab at CICESE. This project use
 4. Place the GPIB2Uno PCB with the components on top of the Arduino, as shown in the pictures in this repository in the Images folder.
 5. Connect the controller to the GPIB instrument and the computer.
 6. Check the GPIB address of the instrument (it must be between 1 and 29). If the address is outside this range, adjust it on the instrument.
-7. Use Python or MATLAB to send commands.
+7. Use Python or MATLAB to establish the instrument connection and send commands. For more details on each approach, refer to the corresponding folder in this repository.
