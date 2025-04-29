@@ -7,6 +7,9 @@ Este directorio contiene imágenes del montaje final de la PCB "controlador GPIB
 - **Imagen_2.jpg** → Imagen desde otro ángulo, mostrando la fijación de la PCB sobre el Arduino.
 - **Imagen_3.jpg** → Vista lateral donde se observa la conexión entre la PCB y el Arduino.
 - **Imagen_4.jpg** → Perspectiva inclinada del montaje final, con la PCB asegurada y el cable bien colocado.
+- **Imagen_5.jpg** → Modelado 3D de la carcasa para el controlador GPIB_Arduino.
+- **Imagen_6.jpg** → Perspectiva frontal del montaje final en la carcasa.
+- **Imagen_7.jpg** → Perspectiva trasera del montaje final en la carcasa
 
 ---
 
