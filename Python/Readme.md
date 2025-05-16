@@ -12,7 +12,7 @@ IMPORTANT: The serial and pyserial libraries are required dependencies.
 ### 2. initialize_instrument.py
 This function was created to initialize the instrument connection, regardless of whether you choose to work with pyVISA or pySerial. The function returns either a VISA or serial connection to the instrument, first attempting to connect via a conventional GPIB-USB adapter with pyVISA. If this connection fails, it defaults to establishing a connection via GPIB-UNO.
 
-IMPORTANT: The serial, pyserial and pyVISA are required dependencies.
+IMPORTANT: The serial, pyserial and pyVISA libraries are required dependencies.
 
 ---
 
